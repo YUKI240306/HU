@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/*  Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #f5bad8;
+    color: white;
+}
+
+/*  Логотип + текст */
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 50px; /* Змінюй розмір логотипу за потреби */
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff4a8c;
+}
+
+.auth a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Hero Section */
+.top {
+    background: url('img/794d9b56403e71da8db07e34769bb1bf.jpg') center/cover no-repeat;
+    color: white;
+    padding: 60px 20px;
+}
+
+.top h1 {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 32px;
+    color: #ff2172;
+}
+
+.product {
+    display: flex;
+    padding: 40px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.product-images img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.product-info {
+    margin-left: 40px;
+}
+
+.product-info h1 {
+    font-size: 30px;
+    color: #ff69b4;
+}
+.product-info p{
+    font-size: 20px;
+}
+
+
+/* 🔥 Features Section */
+.features {
+    background: #f9f9f9;
+    padding: 50px 20px;
+}
+
+.features h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature {
+    width: 250px;
+    text-align: center;
+}
+
+.feature img {
+    width: 80px;
+    margin-bottom: 10px;
+}
