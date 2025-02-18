@@ -108,8 +108,9 @@ header {
 
 .wish h2 {
     font-size: 24px;
-    color: #ff4a8c;
-    margin-top: 50px;
+    color: #e91563;
+    padding-top: 20px;
+
 }
 .wish button {
     width: 100px;
