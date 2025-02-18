@@ -9,5 +9,5 @@ wishes = [
     "Sending you all my love on this special day! May your heart be full, your smile bright, and your day as wonderful as you are. 💘"
 ];
 document.getElementById("x").addEventListener("click",  function () {
-    document.getElementById("Love Wishes").innerHTML = wishes[getRandomInt(9)];
+    document.getElementById("Love Wishes").innerHTML = wishes[getRandomInt(4)];
 })
