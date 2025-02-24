@@ -41,7 +41,7 @@ header {
 
 /* Hero Section */
 .top {
-    background: url('img/794d9b56403e71da8db07e34769bb1bf.jpg') center/cover no-repeat;
+    background: url('../img/794d9b56403e71da8db07e34769bb1bf.jpg') center/cover no-repeat;
     color: white;
     padding: 60px 20px;
 }
